@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: busy-wait
+spec:
+  selector:
+    matchLabels:
+      run: busy-wait
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: busy-wait
+    spec:
+      containers:
+        - name: busy-wait
+          image: kewynakshlley/busy-wait-noclustering
+          ports:
+            - containerPort: 3000
+          imagePullPolicy: Always
+          resources:
+            requests:
+              cpu: 150m
+              memory: 75Mi
+            limits:
+              cpu: 1500m
+              memory: 225Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: busy-wait
+  labels:
+    run: busy-wait
+spec:
+  selector:
+    run: busy-wait
+  ports:
+    - port: 80
+      targetPort: 3000
+  type: NodePort

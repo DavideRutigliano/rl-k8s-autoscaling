@@ -1,0 +1,150 @@
+I0209 22:58:17.381728       1 main.go:139] Custom Pod Autoscaler version: v2.7.0
+I0209 22:58:17.386977       1 main.go:223] Waiting 1 milliseconds before starting autoscaler
+I0209 22:58:17.388930       1 main.go:281] Starting API using HTTP
+I0209 22:58:17.389669       1 main.go:232] Starting autoscaler
+I0209 22:58:34.355555       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 2
+I0209 22:58:34.355754       1 scaling.go:131] Rescaling from 1 to 2 replicas
+I0209 22:58:49.206861       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 2
+I0209 22:58:49.207048       1 scaling.go:153] No change in target replicas, maintaining 2 replicas
+I0209 22:59:04.118513       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 2
+I0209 22:59:04.118637       1 scaling.go:153] No change in target replicas, maintaining 2 replicas
+I0209 22:59:19.052013       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 2
+I0209 22:59:19.052320       1 scaling.go:153] No change in target replicas, maintaining 2 replicas
+I0209 22:59:34.024041       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 2
+I0209 22:59:34.024564       1 scaling.go:153] No change in target replicas, maintaining 2 replicas
+I0209 22:59:48.989049       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 2
+I0209 22:59:48.989756       1 scaling.go:153] No change in target replicas, maintaining 2 replicas
+I0209 23:00:03.993961       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 2
+I0209 23:00:03.994395       1 scaling.go:153] No change in target replicas, maintaining 2 replicas
+I0209 23:00:18.966368       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 3
+I0209 23:00:18.970051       1 scaling.go:131] Rescaling from 2 to 3 replicas
+I0209 23:00:33.946489       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 3
+I0209 23:00:33.947200       1 scaling.go:153] No change in target replicas, maintaining 3 replicas
+I0209 23:00:48.933245       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:00:48.933458       1 scaling.go:131] Rescaling from 3 to 4 replicas
+I0209 23:01:04.031350       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 5
+I0209 23:01:04.031606       1 scaling.go:131] Rescaling from 4 to 5 replicas
+I0209 23:01:18.936266       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:01:18.936548       1 scaling.go:131] Rescaling from 5 to 4 replicas
+I0209 23:01:33.921725       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:01:33.921964       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:01:49.000390       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:01:49.001472       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:02:03.942174       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:02:03.943847       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:02:18.954563       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:02:18.954874       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:02:34.172891       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:02:34.173433       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:02:49.074944       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 3
+I0209 23:02:49.075646       1 scaling.go:131] Rescaling from 4 to 3 replicas
+I0209 23:03:04.180302       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:03:04.185853       1 scaling.go:131] Rescaling from 3 to 4 replicas
+I0209 23:03:19.296698       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 3
+I0209 23:03:19.301040       1 scaling.go:131] Rescaling from 4 to 3 replicas
+I0209 23:03:34.249378       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 2
+I0209 23:03:34.249580       1 scaling.go:131] Rescaling from 3 to 2 replicas
+I0209 23:03:49.539232       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 1
+I0209 23:03:49.539690       1 scaling.go:131] Rescaling from 2 to 1 replicas
+I0209 23:04:04.069774       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 1
+I0209 23:04:04.070526       1 scaling.go:153] No change in target replicas, maintaining 1 replicas
+I0209 23:04:19.179525       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 2
+I0209 23:04:19.180486       1 scaling.go:131] Rescaling from 1 to 2 replicas
+I0209 23:04:34.843443       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 3
+I0209 23:04:34.843649       1 scaling.go:131] Rescaling from 2 to 3 replicas
+I0209 23:04:49.388977       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:04:49.395559       1 scaling.go:131] Rescaling from 3 to 4 replicas
+I0209 23:05:04.585562       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 5
+I0209 23:05:04.586923       1 scaling.go:131] Rescaling from 4 to 5 replicas
+I0209 23:05:19.718252       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:05:19.718737       1 scaling.go:131] Rescaling from 5 to 4 replicas
+I0209 23:05:34.406511       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 3
+I0209 23:05:34.408749       1 scaling.go:131] Rescaling from 4 to 3 replicas
+I0209 23:05:49.457908       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 2
+I0209 23:05:49.458574       1 scaling.go:131] Rescaling from 3 to 2 replicas
+I0209 23:06:04.509600       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 3
+I0209 23:06:04.510246       1 scaling.go:131] Rescaling from 2 to 3 replicas
+I0209 23:06:19.571426       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:06:19.571761       1 scaling.go:131] Rescaling from 3 to 4 replicas
+I0209 23:06:33.922020       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 3
+I0209 23:06:33.922906       1 scaling.go:131] Rescaling from 4 to 3 replicas
+I0209 23:06:49.001300       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 2
+I0209 23:06:49.001475       1 scaling.go:131] Rescaling from 3 to 2 replicas
+I0209 23:07:04.022951       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 2
+I0209 23:07:04.037269       1 scaling.go:153] No change in target replicas, maintaining 2 replicas
+I0209 23:07:18.882167       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 3
+I0209 23:07:18.884537       1 scaling.go:131] Rescaling from 2 to 3 replicas
+I0209 23:07:33.860434       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 3
+I0209 23:07:33.860666       1 scaling.go:153] No change in target replicas, maintaining 3 replicas
+I0209 23:07:48.936484       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 3
+I0209 23:07:48.938185       1 scaling.go:153] No change in target replicas, maintaining 3 replicas
+I0209 23:08:03.946899       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 3
+I0209 23:08:03.947555       1 scaling.go:153] No change in target replicas, maintaining 3 replicas
+I0209 23:08:19.110178       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:08:19.110813       1 scaling.go:131] Rescaling from 3 to 4 replicas
+I0209 23:08:33.965305       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:08:33.975374       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:08:48.932268       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:08:48.932993       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:09:04.008486       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:09:04.009051       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:09:19.008804       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:09:19.009015       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:09:33.997358       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 5
+I0209 23:09:33.997834       1 scaling.go:131] Rescaling from 4 to 5 replicas
+I0209 23:09:48.911923       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:09:48.912433       1 scaling.go:131] Rescaling from 5 to 4 replicas
+I0209 23:10:03.971471       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 5
+I0209 23:10:03.971810       1 scaling.go:131] Rescaling from 4 to 5 replicas
+I0209 23:10:18.951334       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 6
+I0209 23:10:18.961612       1 scaling.go:131] Rescaling from 5 to 6 replicas
+I0209 23:10:33.942373       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 7
+I0209 23:10:33.942543       1 scaling.go:131] Rescaling from 6 to 7 replicas
+I0209 23:10:49.003083       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 6
+I0209 23:10:49.003211       1 scaling.go:131] Rescaling from 7 to 6 replicas
+I0209 23:11:04.122986       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 5
+I0209 23:11:04.123219       1 scaling.go:131] Rescaling from 6 to 5 replicas
+I0209 23:11:19.171653       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:11:19.171859       1 scaling.go:131] Rescaling from 5 to 4 replicas
+I0209 23:11:34.001765       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:11:34.002126       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:11:49.246395       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 5
+I0209 23:11:49.246604       1 scaling.go:131] Rescaling from 4 to 5 replicas
+I0209 23:12:03.956964       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:12:03.957683       1 scaling.go:131] Rescaling from 5 to 4 replicas
+I0209 23:12:19.058838       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:12:19.059496       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:12:34.036543       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:12:34.040121       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:12:48.935030       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:12:48.935678       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:13:03.963303       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:13:03.964674       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:13:19.016219       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:13:19.024768       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:13:34.027866       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:13:34.028794       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:13:48.983527       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 5
+I0209 23:13:48.984334       1 scaling.go:131] Rescaling from 4 to 5 replicas
+I0209 23:14:03.983725       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:14:03.984673       1 scaling.go:131] Rescaling from 5 to 4 replicas
+I0209 23:14:18.987911       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 4
+I0209 23:14:18.989449       1 scaling.go:153] No change in target replicas, maintaining 4 replicas
+I0209 23:14:33.954680       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 5
+I0209 23:14:33.955210       1 scaling.go:131] Rescaling from 4 to 5 replicas
+I0209 23:14:48.892294       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 6
+I0209 23:14:48.892666       1 scaling.go:131] Rescaling from 5 to 6 replicas
+I0209 23:15:03.943119       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 7
+I0209 23:15:03.943328       1 scaling.go:131] Rescaling from 6 to 7 replicas
+I0209 23:15:18.916231       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 6
+I0209 23:15:18.916502       1 scaling.go:131] Rescaling from 7 to 6 replicas
+I0209 23:15:33.949005       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 7
+I0209 23:15:33.949424       1 scaling.go:131] Rescaling from 6 to 7 replicas
+I0209 23:15:48.927155       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 8
+I0209 23:15:48.927466       1 scaling.go:131] Rescaling from 7 to 8 replicas
+I0209 23:16:03.864944       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 7
+I0209 23:16:03.865158       1 scaling.go:131] Rescaling from 8 to 7 replicas
+I0209 23:16:19.019745       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 8
+I0209 23:16:19.021503       1 scaling.go:131] Rescaling from 7 to 8 replicas
+I0209 23:16:33.952624       1 scaling.go:108] Picked max evaluation over stabilization window of 0 seconds; replicas 7
+I0209 23:16:33.952782       1 scaling.go:131] Rescaling from 8 to 7 replicas

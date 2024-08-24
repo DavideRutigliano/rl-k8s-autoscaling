@@ -1,0 +1,29 @@
+runMode: "per-resource"
+requireKubernetesMetrics: true
+# downscaleStabilization: 300
+# interval: 15000
+# minReplicas: 1
+# maxReplicas: 10
+kubernetesMetricSpecs:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 50
+evaluate:
+  type: "shell"
+  timeout: 5000
+  shell:
+    entrypoint: "python"
+    command:
+      - "/app/predict.py"
+      - "-a"
+      - "dqn"
+metric:
+  type: "shell"
+  timeout: 2500
+  shell:
+    entrypoint: "python"
+    command:
+      - "/app/get_metrics.py"
